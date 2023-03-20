@@ -3,12 +3,13 @@ node{
 stages
 {
     stage('SCM checkout'){
-	
-	git "https://github.com/pranaylukka/Restreqres"
+	steps{
+	git "https://github.com/pranaylukka/Restreqres
+}
 	}
     stage("Build"){
-
-      sh mvn clean test
+ steps{
+      sh mvn clean test}
 		    
 	}
 	
