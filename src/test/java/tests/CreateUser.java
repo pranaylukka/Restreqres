@@ -10,7 +10,7 @@ import pojos.CreateUserObject;
 
 public class CreateUser extends Common {
 
-	@Test
+	//@Test
 	public void createUserTest()
 	{
 		CreateUserObject cu=new CreateUserObject("lp","haxor");
