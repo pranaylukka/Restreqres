@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-20T20:35:37 IST" name="FREE CRM Application Test Automation Smoke Suite" finished-at="2023-03-20T20:35:41 IST" duration-ms="3855">
+  <suite started-at="2023-03-20T22:44:14 IST" name="FREE CRM Application Test Automation Smoke Suite" finished-at="2023-03-20T22:44:17 IST" duration-ms="3731">
     <groups>
     </groups>
-    <test started-at="2023-03-20T20:35:37 IST" name="Free CRM Application Test Cases" finished-at="2023-03-20T20:35:41 IST" duration-ms="3855">
+    <test started-at="2023-03-20T22:44:14 IST" name="Free CRM Application Test Cases" finished-at="2023-03-20T22:44:17 IST" duration-ms="3731">
       <class name="tests.GetUsersList">
-        <test-method is-config="true" signature="init()[pri:0, instance:tests.GetUsersList@10d307f1]" started-at="2023-03-20T20:35:37 IST" name="init" finished-at="2023-03-20T20:35:37 IST" duration-ms="585" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.GetUsersList@10d307f1]" started-at="2023-03-20T22:44:14 IST" name="init" finished-at="2023-03-20T22:44:14 IST" duration-ms="536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="getUsersListTest()[pri:0, instance:tests.GetUsersList@10d307f1]" started-at="2023-03-20T20:35:37 IST" name="getUsersListTest" finished-at="2023-03-20T20:35:40 IST" duration-ms="2393" status="PASS">
+        <test-method signature="getUsersListTest()[pri:0, instance:tests.GetUsersList@10d307f1]" started-at="2023-03-20T22:44:14 IST" name="getUsersListTest" finished-at="2023-03-20T22:44:17 IST" duration-ms="2426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsersListTest -->
       </class> <!-- tests.GetUsersList -->
       <class name="tests.CreateUser">
-        <test-method is-config="true" signature="init()[pri:0, instance:tests.CreateUser@614ca7df]" started-at="2023-03-20T20:35:40 IST" name="init" finished-at="2023-03-20T20:35:40 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.CreateUser@614ca7df]" started-at="2023-03-20T22:44:17 IST" name="init" finished-at="2023-03-20T22:44:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="createUserTest()[pri:0, instance:tests.CreateUser@614ca7df]" started-at="2023-03-20T20:35:40 IST" name="createUserTest" finished-at="2023-03-20T20:35:41 IST" duration-ms="655" status="FAIL">
+        <test-method signature="createUserTest()[pri:0, instance:tests.CreateUser@614ca7df]" started-at="2023-03-20T22:44:17 IST" name="createUserTest" finished-at="2023-03-20T22:44:17 IST" duration-ms="583" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
