@@ -2,11 +2,11 @@ node{
 
 stages
 {
-    stage('SCM Checkout'){
+    stage('SCM checkout'){
 	
 	git "https://github.com/pranaylukka/Restreqres"
 	}
-    stage("build"){
+    stage("Build"){
 
       sh mvn clean test
 		    
