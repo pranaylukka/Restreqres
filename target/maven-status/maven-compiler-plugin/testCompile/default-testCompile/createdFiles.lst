@@ -1,0 +1,6 @@
+tests\Root.class
+tests\GetUsersList.class
+tests\GetResourceList.class
+tests\CreateUser.class
+tests\Datum.class
+tests\Support.class
